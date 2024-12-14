@@ -57,18 +57,17 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃NARUTO_MD_V1 SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃*[ NARUTO MD V1 CONNECTED ]*
+┃
+┃*WELCOME OWNER👋🥺*
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> Type .menu to see my commands list
+> Type .help if you need a guide
+
+> powered by Destiny Tech
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DESTINY TECH 𖥘
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/destinytech_md 👈
+❶ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©*2024-2099 Destiny Tech*
 
