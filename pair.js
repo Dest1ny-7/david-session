@@ -58,9 +58,9 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃*[ NARUTO MD V1 CONNECTED ]*
+┃ *[ NARUTO MD V1 CONNECTED ]*
 ┃
-┃*WELCOME OWNER👋🥺*
+┃ *WELCOME OWNER👋🥺*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 > Type .menu to see my commands list
 > Type .help if you need a guide
@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 Destiny Tech*
+© *2024-2099 Destiny Tech*
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
