@@ -59,22 +59,20 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃NARUTO_MD_V1 SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃ *[ NARUTO MD V1 CONNECTED ]*
+┃
+┃ *WELCOME OWNER👋🥺*
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> Type .menu to see my commands list
+> Type .help if you need a guide
+
+> powered by Destiny Tech
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DESTINY TECH 𖥘
+❶ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/destinytech_md 👈
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 Destiny Tech*
-_____________________________________
-	
+© *2024-2099 Destiny Tech*
+
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
